@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #464444;
+    justify-content: center;
+    padding: 1cm;
+    margin: 1cm;
+    align-items: center;
+}
+
+.container {
+    background-color: #7ce5a3;
+    padding: 200px;
+    margin: 100px;
+    max-width: 900px;
+    width: 100%;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 40pt;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+h2{    background-color: rgba(255, 0, 43, 0.726);
+    color: black;
+    font-size: 25pt;
+    padding: 10px;
+    margin: 0;
+    text-align: center;}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submitBtn {
+    background-color: #b55cb8;
+}
+
+.submitBtn:hover {
+    background-color: #b55cb8;
+}
+
+.actionBtn {
+    background-color: #6833b7;
+}
+
+.actionBtn:hover {
+    background-color: #6833b7;
+}
+
+#dataList {
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#dataList li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.hidden {
+    display: none;
+}
